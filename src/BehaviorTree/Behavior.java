@@ -18,6 +18,7 @@ public abstract class Behavior implements java.io.Serializable {
         this.name = name;
     }
 
+
     // BASIC BEHAVIORS
     public void behaviourStart(Object agent, Macro parent) {
         flag = Flags.NO_FLAG;
