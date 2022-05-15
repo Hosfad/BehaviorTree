@@ -1,4 +1,4 @@
-package BehaviorTree;
+package BehaviorTree.Abstracts;
 
 public abstract class Macro extends Behavior {
     public static final long serialVersionUID = 1;

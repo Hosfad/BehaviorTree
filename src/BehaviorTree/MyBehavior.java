@@ -1,8 +1,11 @@
 package BehaviorTree;
 
-public abstract class RSBehavior extends Behavior {
+import BehaviorTree.Abstracts.Behavior;
+import BehaviorTree.Abstracts.Macro;
 
-    public RSBehavior(String name) {
+public abstract class MyBehavior extends Behavior {
+
+    public MyBehavior(String name) {
         super(name);
     }
 

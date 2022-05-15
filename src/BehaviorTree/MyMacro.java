@@ -1,9 +1,11 @@
 package BehaviorTree;
 
 
+import BehaviorTree.Abstracts.Flags;
+import BehaviorTree.Abstracts.Macro;
 
-public abstract class RSMacro extends Macro {
-    public RSMacro(String name) {
+public abstract class MyMacro extends Macro {
+    public MyMacro(String name) {
         super(name);
     }
 

@@ -1,4 +1,4 @@
-package BehaviorTree;
+package BehaviorTree.Abstracts;
 
 public abstract class Behavior implements java.io.Serializable {
     public static final long serialVersionUID = 1;
@@ -17,7 +17,6 @@ public abstract class Behavior implements java.io.Serializable {
     public Behavior(String name) {
         this.name = name;
     }
-
 
     // BASIC BEHAVIORS
     public void behaviourStart(Object agent, Macro parent) {
